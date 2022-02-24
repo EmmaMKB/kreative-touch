@@ -168,14 +168,14 @@
                     <div class="row row--0 newsletter-wrapper align-items-center border-top-bottom">
                         <div class="col-lg-4">
                             <div class="newsletter-section-title">
-                                <h3 class="title">Stay up to Date</h3>
-                                <p class="description">Don't miss the latest Kreative Touch news, update and trend.</p>
+                                <h3 class="title">Restez connectés</h3>
+                                <p class="description">Ne manquez aucune de nos informations.</p>
                             </div>
                         </div>
                         <div class="col-lg-8">
                             <form class="rn-newsletter mt_md--20 mt_sm--20" action="#">
-                                <div class="form-group"><input type="email" placeholder="Email Address"></div>
-                                <div class="form-group"><button class="btn-default">Subscribe</button></div>
+                                <div class="form-group"><input type="email" placeholder="Adresse mail"></div>
+                                <div class="form-group"><button class="btn-default">Souscrire</button></div>
                             </form>
                         </div>
                     </div>
@@ -188,9 +188,7 @@
                         <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                             <div class="copyright-left">
                                 <ul class="ft-menu link-hover">
-                                    {{-- <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Terms And Condition</a></li>
-                                    <li><a href="#">Contact Us</a></li> --}}
+                                    
                                 </ul>
                             </div>
                         </div>
