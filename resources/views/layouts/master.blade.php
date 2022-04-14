@@ -7,7 +7,9 @@
     <meta name="description" content="Nous sommes une agence de communication globale qui œuvre dans le
     secteur du numérique en s’axant sur plusieurs secteurs de la communication comme le
     design graphique, la photographie, le marketing digital et bien d’autres secteurs.">
-    <meta name="keywords" content="design,graphic,branding,studio,web design,web,seo">
+    <meta name="keywords" content="design,graphic,branding,studio,web design,web,seo,kreative,kreative touch">
+    <meta property="og:title" content="Kreative Touch" />
+	<meta property="og:image" content="{{ asset("assets/favicons/apple-touch-icon.png") }}">
 
     <link rel="apple-touch-icon" sizes="60x60" href="{{ asset("assets/favicons/apple-touch-icon.png") }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset("assets/favicons/favicon-32x32.png") }}">
