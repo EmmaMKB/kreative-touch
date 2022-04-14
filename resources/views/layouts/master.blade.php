@@ -27,21 +27,21 @@
                     <nav class="mobile-canvas__nav navigation">
                         <ul class="navigation__list">
                             <li class="navigation__item navigation__item--current">
-                                <a class="navigation__link">Home<span class="navigation__link-icon">
+                                <a class="navigation__link" href="{{ route("home") }}">Accueil<span class="navigation__link-icon">
                                 </a>
                             </li>
                             <li class="navigation__item">
-                                <a class="navigation__link animsition-link" href="about-us.html">Pages<span
+                                <a class="navigation__link animsition-link" href="#">A Propos de nous<span
                                         class="navigation__link-icon">
                                 </a>
                             </li>
                             <li class="navigation__item">
-                                <a class="navigation__link animsition-link" href="projects-masonry.html">Projects
+                                <a class="navigation__link animsition-link" href="#">Projets
                                 </a>
                             </li>
                            
                             <li class="navigation__item">
-                                <a class="navigation__link animsition-link" href="contact.html">Contact<span
+                                <a class="navigation__link animsition-link" href="#">Contact<span
                                         class="navigation__link-icon">
                                         <svg width="12" height="13">
                                             <use xlink:href="#link-arrow"></use>

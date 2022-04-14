@@ -44,7 +44,7 @@
                     design graphique, la photographie, le marketing digital et bien d’autres secteurs.</div>
             </div>
         </div>
-        <div class="row">
+        {{-- <div class="row">
             <div class="col-12 col-md-8 col-lg-5">
                 <a class="features__card features__card--size-large feature-card" href="#"
                     data-aos="fade-up">
@@ -93,7 +93,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
 </section>
 <section class="our-services">
@@ -101,16 +101,17 @@
         <header class="our-services__header our-services__header--large" data-aos="fade-up">
             <div class="row">
                 <div class="col-12 col-md-6 col-xl-5 col-xxl-3" data-aos="fade-up">
-                    <h2 class="our-services__title our-services__title--upper">Our Services</h2>
+                    <h2 class="our-services__title our-services__title--upper">Nos Services</h2>
                 </div>
                 <div class="col-12 col-md-12 col-xl-5 col-xxl-6 order-md-1 order-xl-0" data-aos="fade-up">
-                    <div class="our-services__short">We’ve worked with a wide array of clients across the
-                        globe to apply design fundamentals of elegance, simplicity</div>
+                    <div class="our-services__short">Nous avons travaillé avec un large éventail de clients 
+                        pour appliquer les principes fondamentaux du design, à savoir l'élégance, 
+                        la simplicité et l'efficacité.</div>
                 </div>
                 <div class="col-12 col-md-auto col-xl-2 col-xxl-3 ml-auto text-md-right" data-aos="fade-up">
                     <a class="our-services__more our-services__more--negative-top arrow-link--white arrow-link"
-                        href="services.html">
-                        <span class="arrow-link__text">View all</span>
+                        href="#">
+                        <span class="arrow-link__text">Tous nos services</span>
                         <span class="arrow-link__icon">
                             <svg width="75" height="75">
                                 <use xlink:href="#link-arrow"></use>
@@ -124,13 +125,13 @@
             <div class="accordion__item" data-aos="fade-up">
                 <button class="accordion__item-header" type="button">
                     <span class="row align-items-md-center">
-                        <span class="accordion__item-title col-11 col-md-5">Design</span>
-                        <span class="accordion__item-short col-11 col-md-6">Our intelligent digital strategy
+                        <span class="accordion__item-title col-11 col-md-5">Design Graphique</span>
+                        {{-- <span class="accordion__item-short col-11 col-md-6">Our intelligent digital strategy
                             and a pragmatic and thoughtful approach to solving business calls deliver a
-                            successful framework for both you and your audience.</span>
+                            successful framework for both you and your audience.</span> --}}
                     </span>
                 </button>
-                <div class="accordion__item-body">
+                {{-- <div class="accordion__item-body">
                     <div class="row">
                         <div class="accordion__item-left col-12 col-md-6 col-lg-5">
                             <img src="{{ asset("assets/img/picture/home/accordion-large.jpg") }}" width="810" height="530"
@@ -146,19 +147,19 @@
                                 matter how complicated the tasks are.</div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
             <div class="accordion__item" data-aos="fade-up">
                 <button class="accordion__item-header" type="button">
                     <span class="row align-items-md-center">
-                        <span class="accordion__item-title col-11 col-md-5">Development</span>
-                        <span class="accordion__item-short col-11 col-md-6">We make our customers ' products
+                        <span class="accordion__item-title col-11 col-md-5">Branding</span>
+                        {{-- <span class="accordion__item-short col-11 col-md-6">We make our customers ' products
                             valuable in the eyes of customers. To do this, we analyze and study people,
                             build long-term strategies for interacting with them, develop creative ideas and
-                            create a bright design.</span>
+                            create a bright design.</span> --}}
                     </span>
                 </button>
-                <div class="accordion__item-body">
+                {{-- <div class="accordion__item-body">
                     <div class="row">
                         <div class="accordion__item-left col-12 col-md-6 col-lg-5">
                             <img src="{{ asset("assets/img/picture/home/accordion-large.jpg") }}" width="810" height="530"
@@ -174,18 +175,18 @@
                                 matter how complicated the tasks are.</div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
             <div class="accordion__item" data-aos="fade-up">
                 <button class="accordion__item-header" type="button">
                     <span class="row align-items-md-center">
-                        <span class="accordion__item-title col-11 col-md-5">Graphic</span>
-                        <span class="accordion__item-short col-11 col-md-6">Our intelligent digital strategy
+                        <span class="accordion__item-title col-11 col-md-5">Web Design</span>
+                        {{-- <span class="accordion__item-short col-11 col-md-6">Our intelligent digital strategy
                             and a pragmatic and thoughtful approach to solving business calls deliver a
-                            successful framework for both you and your audience.</span>
+                            successful framework for both you and your audience.</span> --}}
                     </span>
                 </button>
-                <div class="accordion__item-body">
+                {{-- <div class="accordion__item-body">
                     <div class="row">
                         <div class="accordion__item-left col-12 col-md-6 col-lg-5">
                             <img src="{{ asset("assets/img/picture/home/accordion-large.jpg") }}" width="810" height="530"
@@ -201,18 +202,18 @@
                                 matter how complicated the tasks are.</div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
             <div class="accordion__item" data-aos="fade-up">
                 <button class="accordion__item-header" type="button">
                     <span class="row align-items-md-center">
-                        <span class="accordion__item-title col-11 col-md-5">Wordpress</span>
-                        <span class="accordion__item-short col-11 col-md-6">Our intelligent digital strategy
+                        <span class="accordion__item-title col-11 col-md-5">Print</span>
+                        {{-- <span class="accordion__item-short col-11 col-md-6">Our intelligent digital strategy
                             and a pragmatic and thoughtful approach to solving business calls deliver a
-                            successful framework for both you and your audience.</span>
+                            successful framework for both you and your audience.</span> --}}
                     </span>
                 </button>
-                <div class="accordion__item-body">
+                {{-- <div class="accordion__item-body">
                     <div class="row">
                         <div class="accordion__item-left col-12 col-md-6 col-lg-5">
                             <img src="{{ asset("assets/img/picture/home/accordion-large.jpg") }}" width="810" height="530"
@@ -228,12 +229,12 @@
                                 matter how complicated the tasks are.</div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
 </section>
-<section class="works">
+{{-- <section class="works">
     <div class="works__container container container--size-large">
         <header class="works__header">
             <div class="row">
@@ -296,7 +297,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <section class="contact-section">
     <div class="contact-section__container container container--size-large">
         <div class="row">
@@ -323,7 +324,7 @@
                 <div class="discuss-project discuss-project--no-padding col-12">
                     <div class="discuss-project__wrapper" data-aos="fade-up">
                         <div class="discuss-project__title" data-aos="fade-up">Vous avez un projet ?</div>
-                        <form action="#" method="post">
+                        <form action="" method="">
                             <div class="row justify-content-between gx-0">
                                 <div class="col-12" data-aos="fade-up">
                                     <label class="discuss-project__field field">
