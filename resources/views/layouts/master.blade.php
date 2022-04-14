@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="Nous sommes une agence de communication globale qui œuvre dans le
+    secteur du numérique en s’axant sur plusieurs secteurs de la communication comme le
+    design graphique, la photographie, le marketing digital et bien d’autres secteurs.">
+    <meta name="keywords" content="design,graphic,branding,studio,web design,web,seo">
 
     <link rel="apple-touch-icon" sizes="60x60" href="{{ asset("assets/favicons/apple-touch-icon.png") }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset("assets/favicons/favicon-32x32.png") }}">
