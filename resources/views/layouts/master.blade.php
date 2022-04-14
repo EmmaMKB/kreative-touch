@@ -1,233 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ asset("assets/favicons/apple-touch-icon.png") }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset("assets/favicons/favicon-32x32.png") }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset("assets/favicons/favicon-16x16.png") }}">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="{{ asset("assets/css/bootstrap-grid.min.css") }}">
+    <link rel="stylesheet" href="{{ asset("assets/css/main.css") }}">
     <title>Kreative Touch || Your Dose Of Creativity</title>
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
-
-    <!-- CSS ============================================ -->
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/animation.css">
-    <link rel="stylesheet" href="assets/css/plugins/feature.css">
-    <link rel="stylesheet" href="assets/css/plugins/magnify.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/slick.css">
-    <link rel="stylesheet" href="assets/css/plugins/slick-theme.css">
-    <link rel="stylesheet" href="assets/css/plugins/lightbox.css">
-    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class="active-dark-mode">
-    <main class="page-wrapper">
-        {{-- <div class="header-top-bar">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 col-md-12 col-12">
-                        <div class="header-left">
-                            <p><a href="#">Get the most advanced template
-                                    <i class="feather-chevron-right"></i>
-                                </a></p>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-md-12 col-12">
-                        <div class="header-right">
-                            <div class="address-content">
-                                <p>
-                                    <i class="feather-map-pin"></i>
-                                    <span>Alabama, USA</span>
-                                </p>
-                                <p>
-                                    <i class="feather-phone"></i>
-                                    <span><a href="#">+06 58 49 99 56</a></span>
-                                </p>
-                            </div>
-                            <div class="social-icon-wrapper">
-                                <ul class="social-icon social-default icon-naked">
-                                    <li><a href="https://www.facebook.com/">
-                                            <i class="feather-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li><a href="https://www.twitter.com">
-                                            <i class="feather-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li><a href="https://www.instagram.com/">
-                                            <i class="feather-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li><a href="https://www.linkdin.com/">
-                                            <i class="feather-linkedin"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+<body class="webpage">
+    <div class="animsition">
+        <header class="header header--secondary header--absolute __js_fixed-header header--height">
+            <div class="header__container container container--size-large">
+                <a class="header__logo logo">
+                    <img src="{{ asset("assets/img/logo-black.png") }}"  alt="">
+                </a>
+                <div class="header__mobile mobile-canvas">
+                    <nav class="mobile-canvas__nav navigation">
+                        <ul class="navigation__list">
+                            <li class="navigation__item navigation__item--current">
+                                <a class="navigation__link">Home<span class="navigation__link-icon">
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link animsition-link" href="about-us.html">Pages<span
+                                        class="navigation__link-icon">
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link animsition-link" href="projects-masonry.html">Projects
+                                </a>
+                            </li>
+                           
+                            <li class="navigation__item">
+                                <a class="navigation__link animsition-link" href="contact.html">Contact<span
+                                        class="navigation__link-icon">
+                                        <svg width="12" height="13">
+                                            <use xlink:href="#link-arrow"></use>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a class="mobile-canvas__phone" href="tel:+243970840127">+ 243 970 840 127</a>
                 </div>
-            </div>
-        </div> --}}
-
-
-        <!-- Start Header Area  -->
-        <header class="rn-header header-default header-not-transparent header-sticky">
-            <div class="container position-relative">
-                <div class="row align-items-center row--0">
-                    <div class="col-lg-3 col-md-6 col-4">
-                        <div class="logo">
-                            <a href="index.html">
-                                <img class="logo-light" src="assets/images/logo/logo.png" alt="Kreative Touch Logo">
-                                <img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Kreative Touch Logo">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-9 col-md-6 col-8 position-static">
-                        <div class="header-right">
-                            <nav class="mainmenu-nav d-none d-lg-block">
-                                <ul class="mainmenu">
-                                    <li><a href="#">Accueil</a></li>
-                                    <li><a href="#">Portfolio</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">A propos</a></li>
-                                </ul>
-                            </nav>
-                            <!-- Start Header Btn  -->
-                            <div class="header-btn"><a class="btn-default btn-small round" target="_blank" href="#">Parlons de Votre Projet</a></div>
-                            <!-- End Header Btn  -->
-
-                            <!-- Start Mobile-Menu-Bar -->
-                            <div class="mobile-menu-bar ml--5 d-block d-lg-none">
-                                <div class="hamberger">
-                                    <button class="hamberger-button">
-                                        <i class="feather-menu"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <!-- Start Mobile-Menu-Bar -->
-
-
-                            <div id="my_switcher" class="my_switcher">
-                                <ul>
-                                    <li>
-                                        <a href="javascript: void(0);" data-theme="light" class="setColor light">
-                                            <img class="sun-image" src="assets/images/icons/sun-01.svg" alt="Sun images">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript: void(0);" data-theme="dark" class="setColor dark">
-                                            <img class="Victor Image" src="assets/images/icons/vector.svg" alt="Vector Images">
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+                <button class="header__menu-toggle menu-toggle" type="button">
+                    <span class="menu-toggle__line"></span>
+                    <span class="visually-hidden">Menu toggle</span>
+                </button>
             </div>
         </header>
-        <!-- End Header Area  -->
-
-        <div class="popup-mobile-menu">
-            <div class="inner">
-                <div class="header-top">
-                    <div class="logo">
-                        <a href="index.html">
-                            <img class="logo-light" src="assets/images/logo/logo.png" alt="Corporate Logo">
-                            <img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
-                        </a>
+        <main>
+            @yield('content')
+        <footer class="footer __js_fixed-footer">
+            <div class="footer__container container container--size-large">
+                <div class="footer__grid">
+                    <a class="footer__logo">
+                        <svg width="59" height="242">
+                            <use xlink:href="#vertical-logo"></use>
+                        </svg>
+                    </a>
+                    <div class="footer__phone">
+                        <a href="tel:+243970840127">+ 243 970 840 127</a>
                     </div>
-                    <div class="close-menu">
-                        <button class="close-button">
-                            <i class="feather-x"></i>
-                        </button>
+                    <div class="footer__menu">
+                        <div class="footer__title">Liens Utiles</div>
+                        <ul class="footer__menu-list">
+                            {{-- <li class="footer__menu-item footer__menu-item--current">
+                                <a class="footer__menu-link">Home</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a class="footer__menu-link" href="about-us.html">Pages</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a class="footer__menu-link" href="blog-masonry.html">Blog</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a class="footer__menu-link" href="contact.html">Contact</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a class="footer__menu-link" href="projects-masonry.html">Portfolio</a>
+                            </li> --}}
+                        </ul>
                     </div>
-                </div>
-                <ul class="mainmenu">
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">A propos</a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- Start Theme Style  -->
-        <div>
-            <div class="rn-gradient-circle"></div>
-            <div class="rn-gradient-circle theme-pink"></div>
-        </div>
-        <!-- End Theme Style  -->
-        <!-- End Seperator Area  -->
-        @yield('content')
-
-        <footer class="rn-footer footer-style-default no-border">
-            <div class="newsletter-area rn-newsletter-default">
-                <div class="container">
-                    <div class="row row--0 newsletter-wrapper align-items-center border-top-bottom">
-                        <div class="col-lg-4">
-                            <div class="newsletter-section-title">
-                                <h3 class="title">Restez connectés</h3>
-                                <p class="description">Ne manquez aucune de nos informations.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-8">
-                            <form class="rn-newsletter mt_md--20 mt_sm--20" action="#">
-                                <div class="form-group"><input type="email" placeholder="Adresse mail"></div>
-                                <div class="form-group"><button class="btn-default">Souscrire</button></div>
-                            </form>
-                        </div>
+                    <div class="footer__menu">
+                        <div class="footer__title">Suivez-nous</div>
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item">
+                                <a href="https://www.instagram.com/kreative__touch/" target="_blank">Instagram</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="https://www.linkedin.com/company/kreative-touch-comms/" target="_blank">LinkedIn</a>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-            </div>
-
-            <div class="copyright-area copyright-style-one no-border">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                            <div class="copyright-left">
-                                <ul class="ft-menu link-hover">
-                                    
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                            <div class="copyright-right text-center text-md-right">
-                                <p class="copyright-text">© Kreative Touch 2022</p>
-                            </div>
-                        </div>
+                    {{-- <div class="footer__feedback">
+                        <div class="footer__title">Sign up to our newsletter</div>
+                        <form class="footer__feedback-form" action="#" method="post">
+                            <label class="footer__feedback-field field">
+                                <input type="email" name="email">
+                                <span class="field__hint">E-mail</span>
+                            </label>
+                            <button class="footer__feedback-send arrow-btn arrow-btn--size-large" type="button">
+                                <svg width="75" height="75">
+                                    <use xlink:href="#link-arrow"></use>
+                                </svg>
+                            </button>
+                        </form>
+                    </div> --}}
+                    <div class="footer__bottom">
+                        <div class="footer__copyright">© Kreative Touch 2022</div>
                     </div>
                 </div>
             </div>
         </footer>
-    </main>
-
-    <!-- All Scripts  -->
-    <!-- Start Top To Bottom Area  -->
-    <div class="rn-back-top">
-        <i class="feather-arrow-up"></i>
     </div>
-  
-    <script src="{{ asset('assets/js/vendor/modernizr.min.js') }}"></script>
-    <script src="{{ asset('assets/js/vendor/jquery.min.js') }}"></script>
-    <script src="{{ asset('assets/js/vendor/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('assets/js/vendor/popper.min.js') }}"></script>
-    <script src="{{ asset('assets/js/vendor/waypoint.min.js') }}"></script>
-    <script src="{{ asset('assets/js/vendor/wow.min.js') }}"></script>
-    <script src="{{ asset('assets/js/vendor/counterup.min.j') }}s"></script>
-    <script src="{{ asset('assets/js/vendor/feather.min.js') }}"></script>
-    <script src="{{ asset('assets/js/vendor/sal.min.js') }}"></script>
-    <script src="{{ asset('assets/js/vendor/masonry.js') }}"></script>
-    <script src="{{ asset('assets/js/vendor/imageloaded.js') }}"></script>
-    <script src="{{ asset('assets/js/vendor/magnify.min.js') }}"></script>
-    <script src="{{ asset('assets/js/vendor/lightbox.js') }}"></script>
-    <script src="{{ asset('assets/js/vendor/slick.min.js') }}"></script>
-    <script src="{{ asset('assets/js/vendor/easypie.js') }}"></script>
-    <script src="{{ asset('assets/js/vendor/text-type.js') }}"></script>
-    <script src="{{ asset('assets/js/vendor/jquery.style.swicher.js') }}"></script>
-    <script src="{{ asset('assets/js/vendor/js.cookie.js') }}"></script>
-    <script src="{{ asset('assets/js/main.js') }}"></script>
+
+    {{-- <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> --}}
+    <script src="{{ asset("assets/js/libs/jquery-3.5.1.min.js") }}"></script>
+    <script src="{{ asset("assets/js/libs/jquery.fancybox.min.js") }}"></script>
+    <script src="{{ asset("assets/js/libs/animsition.min.js") }}"></script>
+    <script src="{{ asset("assets/js/libs/aos.js") }}"></script>
+    <script src="{{ asset("assets/js/libs/swiper-bundle.min.js") }}"></script>
+    <script src="{{ asset("assets/js/libs/jquery.easy_number_animate.js") }}"></script>
+    <script src="{{ asset("assets/js/libs/jquery.marquee.min.js") }}"></script>
+    <script src="{{ asset("assets/js/libs/isotope.pkgd.min.js") }}"></script>
+    <script src="{{ asset("assets/js/libs/packery.pkgd.min.js") }}"></script>
+    <script src="{{ asset("assets/js/libs/packery-mode.pkgd.min.js") }}"></script>
+    <script src="{{ asset("assets/js/libs/jquery.pagepiling.js") }}"></script>
+    <script src="{{ asset("assets/js/libs/simpleParallax.min.js") }}"></script>
+
+    <script src="{{ asset("assets/js/main.js") }}"></script>
 </body>
 
 </html>
