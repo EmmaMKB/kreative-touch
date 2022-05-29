@@ -10,6 +10,7 @@
     <meta name="keywords" content="design,graphic,branding,studio,web design,web,seo,kreative,kreative touch">
     <meta property="og:title" content="Kreative Touch" />
 	<meta property="og:image" content="{{ asset("assets/favicons/apple-touch-icon.png") }}">
+    <meta name="p:domain_verify" content="a6ef94874b5c80ae5cd2ebfdfa1c0f38"/>
 
     <link rel="apple-touch-icon" sizes="60x60" href="{{ asset("assets/favicons/apple-touch-icon.png") }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset("assets/favicons/favicon-32x32.png") }}">
